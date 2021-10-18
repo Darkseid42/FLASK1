@@ -7,5 +7,6 @@ TECHNOLOGY STACK USED :
                         FLASK, 
                         JINJA2,
                         SQLALCHEMY,
-                        HTML5
+                        HTML5,
+                        BOOTSTRAP
                         
