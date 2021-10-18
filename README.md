@@ -5,7 +5,7 @@ I am basically trying to make a ticketing system for an organisation in which th
 TECHNOLOGY STACK USED :
                         PYTHON 3.8,
                         FLASK, 
-                        JINJA2
+                        JINJA2,
                         SQLALCHEMY,
                         HTML5
                         
