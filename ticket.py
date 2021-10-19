@@ -24,11 +24,15 @@ def hello_world():
     jobs = JOBS(Title="First Jobs", Description="Invest in SM")
     db.session.add(jobs)
     db.session.commit()
-    return render_template('index.html')
+    alljobs = JOBS.query.all()
+    return render_template('index.html', alljobs=alljobs)
 
-@app.route("/products")
+@app.route("/show")
 def products():
+    alljobs = JOBS.query.all()
+    print(alljobs)
     return "<p>This is products</p>"    
 
 if __name__ == "__main__":
     app.run(debug=True)
+ 
