@@ -19,8 +19,7 @@ export default async function Pools() {
 
   return (
     <div className="mt-6">
-      <h1 className="flex space-x-2 p-6">
-
+      <h1 className="flex space-x-2 p-7">
         Pools
       </h1>
       {
